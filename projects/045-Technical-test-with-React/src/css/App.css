@@ -1,0 +1,21 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 800px,
+}
+.input-elements {
+  display: flex;
+  flex-direction: row;
+}
+main {
+  width: 100%;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+li {
+  list-style: none;
+}
