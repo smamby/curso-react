@@ -1,5 +1,5 @@
 {
-  "name": "046-react-technical-test",
+  "name": "052-e-commerce.cart",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,13 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "eslint": "^9.33.0",
+    "eslint": "^9.34.0",
     "standard": "^17.1.2",
     "vite": "^7.1.2"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "5.0.1",
-    "just-debounce-it": "3.2.0",
+    "@vitejs/plugin-react-swc": "^4.0.1",
     "react": "19.1.1",
     "react-dom": "19.1.1"
   },

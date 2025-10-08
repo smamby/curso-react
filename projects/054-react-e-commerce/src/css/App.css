@@ -1,0 +1,86 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.1rem;
+  width: 100%;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+img {
+  margin: 4rem 0 0;
+}
+p {
+  margin: 0 0 1rem;
+}
+li button {
+  margin: 1rem;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.cont-range, .cont-select {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+}
+#category {
+  margin: 0 0 1.5rem;
+}
+.search {
+  justify-content: center;
+  align-items: center;
+}
+.keyword-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#clear {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  padding: 0;
+  background-color: #444;
+  cursor: pointer;
+  font-size: 20px;
+}
+#buscar {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.search form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+}
