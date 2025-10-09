@@ -10,7 +10,6 @@ export default function Head ({
     setInputValue
   }) {
 
-
     const categories = [...new Set(
       ['all', ...products
         .map(p => p.category)]

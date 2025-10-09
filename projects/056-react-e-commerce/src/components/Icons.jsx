@@ -10,7 +10,6 @@ export function AddToCartIcon () {
     </svg>
   )
 }
-
 export function RemoveFromCartIcon () {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='1' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
@@ -24,7 +23,6 @@ export function RemoveFromCartIcon () {
     </svg>
   )
 }
-
 export function ClearCartIcon () {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='1' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
@@ -37,7 +35,6 @@ export function ClearCartIcon () {
     </svg>
   )
 }
-
 export function CartIcon () {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='1' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
