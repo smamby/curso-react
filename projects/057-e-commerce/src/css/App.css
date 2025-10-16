@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    max-width: 900px;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1fr;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.searcher-and-filters {
+    width: 100%;
+    margin-top: 2rem;
+}
+.searcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.searcher form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.searcher form label, .searcher form input, .searcher form button {
+    margin: 0;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.searcher form button{
+    width: 41px;
+    height: 41px;
+    padding: 0;
+}
+.filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.price-range {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.category-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
