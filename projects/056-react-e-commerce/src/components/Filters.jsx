@@ -89,7 +89,7 @@ export default function Filters ({
             </option>
             {
               categories.map((category, index) => (
-                <option key={index} vañue={category}>
+                <option key={index} value={category}>
                   {category}
                 </option>
               ))
